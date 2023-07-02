@@ -16,7 +16,7 @@ const MyButton = () => {
   return (
     <View>
       <Button onPress={handlePress} title="SLEEP"></Button>
-      <Text style={styles.texto}>{formattedTime}</Text>
+      <Text style={styles.texto}>Now</Text>
     </View>
   )
 }
@@ -25,9 +25,12 @@ export default MyButton
 
 const styles = StyleSheet.create({
   texto: {
-    color: "white",
     fontSize: 30,
-    fontWeight: "bold",
+    color: "white",
+    backgroundColor: "#4CAF50",
+    paddingHorizontal: 16,
+    marginVertical: 8,
+    borderRadius: 30,
     textAlign: "center",
   },
 })
