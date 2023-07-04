@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     color: "white",
     marginTop: 150,
     marginRight: 200,
-    fontSize: 28,
+    fontSize: 27,
     fontWeight: 600,
   },
   buttonsDiv: {
